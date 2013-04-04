@@ -1,6 +1,6 @@
 require 'formula'
 
-class Tmux < Formula
+class TmuxIterm2 < Formula
   homepage 'https://code.google.com/p/iterm2/wiki/TmuxIntegration'
   url 'https://iterm2.googlecode.com/files/tmux-for-iTerm2-20130319.tar.gz'
   sha1 'f14a0bad6991b9e3380d5c3a6057e09f62597d1f'
