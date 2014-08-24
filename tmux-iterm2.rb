@@ -6,9 +6,9 @@ class TmuxIterm2 < Formula
   sha1 'f14a0bad6991b9e3380d5c3a6057e09f62597d1f'
 
   depends_on 'pkg-config' => :build
+  depends_on :autoconf => :build
   depends_on 'libevent'
-
-  depends_on :automake
+  depends_on :automake => :build
   depends_on :libtool
   depends_on :autom4te
 
