@@ -3,6 +3,7 @@ require 'formula'
 class TmuxIterm2 < Formula
   homepage 'https://code.google.com/p/iterm2/wiki/TmuxIntegration'
   url 'https://iterm2.com/downloads/stable/iTerm2_v2_0-LeopardPPC.zip'
+  sha1 'bf18d2a5a932ba19b7b55ab035731df050729a42'
 
   depends_on 'pkg-config' => :build
   depends_on :autoconf => :build
