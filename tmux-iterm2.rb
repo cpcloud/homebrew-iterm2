@@ -10,7 +10,6 @@ class TmuxIterm2 < Formula
   depends_on 'libevent'
   depends_on :automake => :build
   depends_on :libtool
-  depends_on :autom4te
 
   def install
     system "sh", "autogen.sh"
